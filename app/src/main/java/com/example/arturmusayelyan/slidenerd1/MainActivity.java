@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
         passwordValueDimensions.addRule(RelativeLayout.ALIGN_PARENT_RIGHT);
         passwordValueDimensions.addRule(RelativeLayout.BELOW, userNameValueId);
 
-        // userNameValueDimensions.addRule(RelativeLayout.ALIGN_BASELINE, passwordId);//? //sxal 62-i verj
+         passwordValueDimensions.addRule(RelativeLayout.ALIGN_BASELINE, passwordId);
     }
 
     private void createLoginButton() {
