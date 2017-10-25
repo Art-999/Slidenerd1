@@ -29,5 +29,14 @@
         android:layout_toRightOf="@id/userName_tv"
         android:layout_alignParentRight="true"
         android:layout_alignBaseline="@id/userName_tv"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="TextView2"
+        android:background="@color/myColor1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="top|right"
+        />
 
 </RelativeLayout>
