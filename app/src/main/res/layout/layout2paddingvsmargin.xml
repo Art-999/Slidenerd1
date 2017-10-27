@@ -19,10 +19,16 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="right"
         android:background="#ff0"
-        android:gravity="center"
+        android:padding="50dp"
+        android:shadowColor="#f00"
+        android:shadowDx="10"
+        android:shadowDy="5"
+        android:shadowRadius="5"
         android:text="facebook2"
-        android:textSize="20sp" />
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
 
     <TextView
         android:id="@+id/textView3"
@@ -49,4 +55,15 @@
     <!--android:gravity="center"-->
     <!--android:text="facebook"-->
     <!--android:textSize="20sp"/>-->
+    <TextView
+        android:layout_gravity="right"
+        android:textSize="26sp"
+        android:padding="50dp"
+        android:text="Hello World"
+        android:shadowColor="#f00"
+        android:shadowRadius="5"
+        android:shadowDx="10"
+        android:shadowDy="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>
